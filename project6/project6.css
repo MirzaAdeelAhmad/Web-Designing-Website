@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.445)), url(images/project6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 300px;
+    height: 70px;
+}
+.logo h1{
+    color: rgb(255, 123, 36);
+    margin-top: 15px;
+    margin-left: 70px;
+
+}
+.menu{
+    width: 500px;
+    height: 70px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 100px;
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 25px 50px 0px 0px;
+    
+}
+.menu ul li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: rgb(255, 123, 36);
+    transition: 0.3s;
+}
+.search{
+    float: left;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.srch{
+    float: left;
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 123, 36);
+    color: white;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+}
+.srch:focus{
+    outline: none;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 123, 36);
+    color: white;
+    border: 2px solid rgb(255, 123, 36);
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(255, 102, 0);
+    transition: 0.4s;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+}
+.content h1{
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.content h1 span{
+    color: rgb(255, 102, 0);
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.content p{
+    color: white;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 25px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+.form{
+    width: 280px;
+    height: 410px;
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    left: 985px;
+    top: 150px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 230px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 5px 0px;
+    color: rgb(255, 123, 36);
+
+}
+.form input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+    padding: 5px 0px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 123, 36);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    text-transform: capitalize;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    
+}
+
+.form .btn3{
+    width: 230px;
+    padding: 10px 0px;
+    background-color: rgb(255, 123, 36);
+    border-radius: 5px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form .btn3:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.form .para1{
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color: rgb(255, 123, 36);
+}
+.form .para2{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.icon{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.icon a{
+    color: white;
+    font-size: 30px;
+    margin-right: 13px;
+}
+.icon a:hover{
+    color: rgb(255, 123, 36);
+    transition: 0.2s;
+}
